@@ -3,6 +3,12 @@
 
 This is a SDL2 written program in C++ built using CMAKE where there's a 10000 in 1 chance where Withered Foxy jumpscares you on your windows desktop. (Sorry linux users I'll get to creating a linux version soon. or feel free to create a linux version before me, that works too.)
 
+## Known bugs
+* Clicking on it freezes the jumpscare (or the program sometimes)
+* There's a black flash for a split second upon starting, this is because of the program initalising itself.
+* Deleting assets break the thing so uh, don't do that? lol
+
+
 ## Libraries used for this project
 [SDL2](https://www.libsdl.org/) for creating the window and rendering Foxy.
 
