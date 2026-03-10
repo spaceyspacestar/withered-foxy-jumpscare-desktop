@@ -20,7 +20,7 @@ This is a SDL2 written program in C++ built using CMAKE where there's a 10000 in
 1. Download SDL2 2.30.9 (or later, I don't think it necessarily matters unless it's SDL3)
 2. Clone this repository using CMD
 3. do `cd withered-foxy-jumpscare-desktop`
-4. Update line 5 in CMakeLists.txt: ```set(SDL2_ROOT "C:/vcdeps/SDL2-2.30.9/x86_64-w64-mingw32") #Path to SDL2``` to change to your SDL2 installation.
+4. Update line 5 in CMakeLists.txt: ```set(SDL2_ROOT "C:/vcdeps/SDL2-2.30.9") #Path to SDL2``` to change to your SDL2 installation.
 5. do `mkdir build` and cd into the build directory.
 6. run `cmake ..` and it'll create a build list (there's only really one)
 7. finally, run `cmake --build .` and it'll compile successfully.
