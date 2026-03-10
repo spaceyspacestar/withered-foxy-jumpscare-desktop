@@ -1,6 +1,6 @@
 #pragma once
 #include "foxy.hpp"
-#include "SDL2/SDL.h"
+#include "SDL.h"
 
 bool activate_jumpscare = false;
 bool jumpscare_finished = false;

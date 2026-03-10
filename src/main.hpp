@@ -3,8 +3,8 @@
 #define MINIAUDIO_IMPLEMENTATION
 #include <stdio.h>
 #include <thread>
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_syswm.h>
+#include <SDL.h>
+#include <SDL_syswm.h>
 #include <windows.h>
 #include <winuser.h>
 #include <winternl.h>

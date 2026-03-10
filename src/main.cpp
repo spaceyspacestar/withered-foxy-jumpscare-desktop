@@ -143,7 +143,7 @@ void HandleTray() {
     tray.run();
 }
 
-int main(int argc, char* argv[]) {
+int SDL_main(int argc, char* argv[]) {
     if (!init()) {
 #ifdef DEBUG
         printf("Failed to initialize!\n");
